@@ -10,13 +10,20 @@ Independent NLP research project using fine-tuned transformer models on earnings
 
 ## Structure
 
+```text
 sentiment_alpha_project/
+├── data/              
+├── models/             
+├── outputs/            
 ├── src/
-│ ├── data_loader.py
-│ ├── preprocessing.py
-│ ├── model_trainer.py
-│ ├── inference.py
-│ └── interpretability.py
+│   ├── data_loader.py    
+│   ├── preprocessing.py  
+│   ├── model_trainer.py  
+│   ├── inference.py      
+│   └── interpretability.py 
+├── config.yaml         
+└── main.py             
+```
 
 ## TO-DO
 - Add labeled training data
