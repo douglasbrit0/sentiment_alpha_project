@@ -79,11 +79,11 @@ upload_to_hub("models/distilbert_finetuned", "your-username/sentiment-alpha-mode
 
 
 ## 🧠 TODO
- *Backtesting module
+ - Backtesting module
 
- *Upload attention/SHAP explainers
+ - Upload attention/SHAP explainers
 
- *Extend dataset beyond Financial PhraseBank
+ - Extend dataset beyond Financial PhraseBank
 
 
 
