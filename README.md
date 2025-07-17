@@ -12,7 +12,7 @@ Fine-tuned transformer models (DistilBERT/FinBERT) on earnings call transcripts 
 - ☁️ Publish models to Hugging Face and load for inference
 - 🖥️ Streamlit demo for interactive analysis
 
----
+
 
 ## 🧱 Project Structure
 
@@ -36,7 +36,7 @@ sentiment_alpha_project/
 └── README.md
 ```
 
----
+
 
 ## 📦 Setup
 
@@ -48,7 +48,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
+
 
 ##🧪 Fine-Tune Model
 
@@ -59,7 +59,7 @@ python main.py
 Labeled CSV must have columns: text,label
 Labels: positive, neutral, negative
 
----
+
 
 ## 🖥️ Run Streamlit App
 
@@ -67,7 +67,7 @@ Labels: positive, neutral, negative
 streamlit run app/streamlit_app.py
 ```
 
----
+
 
 ## ☁️ Push Model to Hugging Face
 
@@ -76,7 +76,7 @@ from src.model_uploader import upload_to_hub
 upload_to_hub("models/distilbert_finetuned", "your-username/sentiment-alpha-model", "your_hf_token")
 ```
 
----
+
 
 ## 🧠 TODO
  *Backtesting module
@@ -85,7 +85,7 @@ upload_to_hub("models/distilbert_finetuned", "your-username/sentiment-alpha-mode
 
  *Extend dataset beyond Financial PhraseBank
 
----
+
 
 
 ## 🏷️ Tags
