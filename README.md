@@ -77,6 +77,10 @@ upload_to_hub("models/distilbert_finetuned", "your-username/sentiment-alpha-mode
 ```
 
 
+## 📚 Credits
+The data/examples.csv is derived from the Financial PhraseBank dataset, as distributed through daniel-gordon/bioBERT-finetuned-financial-phrasebank.
+
+
 
 ## 🧠 TODO
  - Backtesting module
