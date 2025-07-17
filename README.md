@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 
 
-##🧪 Fine-Tune Model
+## 🧪 Fine-Tune Model
 
 ```bash
 python main.py
