@@ -1,7 +1,11 @@
 from huggingface_hub import login, HfApi, create_repo, upload_folder
 import os
 
-# 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
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+hf_token = os.getenv("HF_TOKEN")
 
 def upload_to_huggingface(local_model_path: str, repo_name: str, hf_token: str, private: bool = False):
     """
