@@ -1,0 +1,21 @@
+# Core
+transformers==4.41.1
+datasets==2.19.0
+torch>=2.0
+
+# Data handling
+pandas
+scikit-learn
+
+# Model upload
+huggingface_hub>=0.20.3
+
+# Web demo
+streamlit
+
+# Interpretability (optional but useful)
+shap
+matplotlib
+
+# System compatibility
+accelerate>=0.21.0
