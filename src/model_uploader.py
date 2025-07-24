@@ -1,6 +1,4 @@
 from huggingface_hub import login, HfApi, create_repo, upload_folder
-import os
-
 from dotenv import load_dotenv
 import os
 

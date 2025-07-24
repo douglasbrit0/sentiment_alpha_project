@@ -1,1 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pkl
+
+# Env
+.venv/
+.env
+
+# Model artifacts
 models/
+logs/
+outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
