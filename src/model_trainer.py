@@ -23,6 +23,7 @@ def fine_tune(model_name: str, csv_path: str, output_dir: str):
     dataset = dataset.map(lambda x: tokenizer(x['text'], padding='max_length', truncation=True), batched=True)
 
     # Training arguments
+    print("TrainingArguments is from:", TrainingArguments.__module__)
     training_args = TrainingArguments(
         output_dir=output_dir,
         num_train_epochs=3,
